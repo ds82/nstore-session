@@ -1,14 +1,27 @@
 {
-    "name" : "nStoreSession",
-    "version" : "0.0.23",
-    "description" : "Connect session store using nStore",
-    "index" : "./lib/nstore-session",
-    "repository" : {
-        "type" : "git",
-        "url" : "http://github.com/creationix/nstore-session.git"
-    },
-    "dependencies" : {
-        "nstore" : ">=0.5.1"
-    },
-    "engine" : ["node >=0.1.100"]
+  "name": "nstore-session",
+  "version": "0.0.24",
+  "description": "express 3.x/connect 2. session store using nStore",
+  "main": "./lib/nstore-session",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ds82/nstore-session"
+  },
+  "author": {
+    "name": "Tim Caswell",
+    "email": "tim@creationix.com"
+  },
+  "contributors": [
+    {
+      "name": "Dennis Sänger",
+      "email": "npm14@mail.ds82.de"
+    }
+  ],
+  "dependencies": {
+    "connect": "2.12.0",
+    "nstore": "^0.5.2"
+  },
+  "engine": [
+    "node >=0.10.0"
+  ]
 }
